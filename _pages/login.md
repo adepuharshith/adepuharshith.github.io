@@ -1,8 +1,8 @@
 ---
 title: "Choi Laboratory - Login"
-layout: homelay.html
-excerpt: "Choi Laboratory Purdue University."
+layout: textlay
+excerpt: "Choi Laboratory -- Login."
 sitemap: false
-permalink: /_config/
+permalink: /login/
 ---
 hello

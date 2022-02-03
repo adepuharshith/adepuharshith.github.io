@@ -13,10 +13,10 @@ permalink: /login/
 <div class="form-container">
   <div class="user-img"></div>
   <ul class="list">
-    <p>Memeber Login</li>
-    <p><input type="text" name="Username" placeholder="User Name"></li>
-    <p><input type="password" name="Password" placeholder=".........."></li>
-    <p><input type="button" name="Submit" value="Submit"></li>
+    <p>Memeber Login</p>
+    <p><input type="text" name="Username" placeholder="User Name"></p>
+    <p><input type="password" name="Password" placeholder=".........."></p>
+    <p><input type="button" name="Submit" value="Submit"></p>
     
   </ul>
   

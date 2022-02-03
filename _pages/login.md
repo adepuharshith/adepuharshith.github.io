@@ -3,12 +3,11 @@ title: "Login"
 layout: page
 permalink: /login/
 ---
-hello
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Login</title>
-  <link rel="stylesheet" type="text/css" href="global.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <div class="form-container">

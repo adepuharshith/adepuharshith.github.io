@@ -1,8 +1,6 @@
 ---
-title: "Choi Laboratory - Login"
-layout: textlay
-excerpt: "Choi Laboratory -- Login."
-sitemap: false
+title: "Login"
+layout: page
 permalink: /login/
 ---
 hello

@@ -32,7 +32,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "Formget" && password == "formget#123"){
 
-window.location = "{{ site.url }}{{ site.baseurl }}/images/success.html";  
+window.location = "{{ site.url }}{{ site.baseurl }}/allnews.html";  
   }
  else{
   alert ("unsuccessfull");

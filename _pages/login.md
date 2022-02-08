@@ -10,7 +10,7 @@ permalink: /login/
 <!-- Include CSS File Here -->
 <link rel="stylesheet" href="css/style.css"/>
 <!-- Include JS File Here -->
-<script src="js/login.js"></script>
+<script src="login.js"></script>
 </head>
 <body>
 <div class="container">

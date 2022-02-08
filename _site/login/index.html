@@ -7,14 +7,13 @@
 <body>
 <div class="form-container">
   <div class="user-img"></div>
-  <ul class="list">
-    <li>Memeber Login</li>
-    <li><input type="text" name="Username" placeholder="User Name"></li>
-    <li><input type="password" name="Password" placeholder=".........."></li>
-    <li><input type="button" name="Submit" value="Submit"></li>
-    <li>Forget Password?</li>
-  </ul>
-  
+<form id="form_id" method="post" name="myform">
+<label>Username :</label>
+<input type="text" name="Username" id="Username"/>
+<label>Password :</label>
+<input type="Password" name="Password" id="Password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
   
 </div>
 </body>

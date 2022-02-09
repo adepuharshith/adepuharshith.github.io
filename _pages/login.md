@@ -15,7 +15,7 @@ permalink: /login/
 <body>
 <div class="container">
 <div class="main">
-<h2>Javascript Login Form Validation</h2>
+<h2></h2>
 <form id="form_id" method="post" name="myform">
 <label>User Name :</label>
 <input type="text" name="username" id="username"/>

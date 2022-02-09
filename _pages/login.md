@@ -6,7 +6,7 @@ permalink: /login/
 
 <html>
 <head>
-<title>Javascript Login Form Validation</title>
+<title>Only lab personnel</title>
 <!-- Include CSS File Here -->
 <link rel="stylesheet" href="css/style.css"/>
 <!-- Include JS File Here -->

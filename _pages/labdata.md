@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "Choi Laboratory Purdue University."
 sitemap: false
-permalink: /allnews.html
+permalink: /labdata.html
 ---
 
 # News

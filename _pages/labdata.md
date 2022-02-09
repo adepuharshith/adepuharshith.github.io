@@ -6,7 +6,7 @@ sitemap: false
 permalink: /labdata.html
 ---
 
-# News
+# Lab Data
 
 {% for article in site.data.labdata %}
 <p>{{ article.date }} <br>

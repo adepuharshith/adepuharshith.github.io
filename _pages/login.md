@@ -45,7 +45,7 @@ window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";
 </script>
 
   
-<script>
+<style>
 *{
   padding: 0;
   margin: 0;
@@ -108,7 +108,7 @@ body{
   background: #151c6a
 }
   
-</script>
+</style>
   
   
   

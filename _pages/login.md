@@ -26,6 +26,7 @@ permalink: /login/
 <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
 </div>
 </div>
+
 <script>
 function validate(){
 var username = document.getElementById("username").value;
@@ -35,7 +36,7 @@ if ( username == "Formget" && password == "formget#123"){
 window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";  
   }
  else{
-  alert ("unsuccessfull");
+  alert ("Login Unsuccessfull!");
   }
   }
 </script>

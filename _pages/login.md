@@ -19,9 +19,9 @@ permalink: /login/
 <h1 class="label">Lab Personnel Login</h1>
   
 <form id="form_id" method="post" name="myform">
-  <label>User Name</label></div>
+  <label>User Name</label></br>
 <input type="text" name="username" id="username"/>
-</label>Password</label>
+<label>Password</label>
 <input type="password" name="password" id="password"/>
 <input type="button" value="Login" id="submit" onclick="validate()"/>
 </form>

@@ -2,5 +2,6 @@
   headline: This is [AFM help](https://drive.google.com/file/d/1TiMcSRGRSdivaM3uyK_4IHiNBXHYvkbO/view?usp=sharing)
 
 - date: test file 2
-  headline: This is [AFM help 2]({{ site.url }}{{ site.baseurl }}/images/test.pdf})
+  pdf: test.pdf
+  headline: This is 
 

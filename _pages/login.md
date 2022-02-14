@@ -6,94 +6,98 @@ permalink: /login/
 
 <html>
 <head>
-  
-  <style>
-*{
-  padding: 0;
-  margin: 0;
-}
+<style>
 body{
+  margin: 0;
+  padding: 0;
   background-size: cover;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  background-position: centre;
   font-family: sans-serif;
 }
-.container{
-  position: relative;
-  margin-top: 100px;
-  width: 450 px;
-  height: auto;
-  background: #dedede;
-  border-radius:5;
+.loginbox{
+  width: 320 px;
+  height: 420 px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  trnasform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
 }
-.label{
-  padding: 20px 130px;
-  font-size: 35px;
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50%-50px);
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
   font-weight: bold;
-  color: #130f40;
 }
-.login_form{
-  padding: 20px 40px;
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
 }
-.login_form.font{
-  font-size: 18px;
-  color: #130f40;
-  margin: 5px 0;
-}
-.login_form input{
+.loginbox input[type='text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
   height: 40 px;
-  width: 350px;
-  padding: 0 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[tuoe="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
   font-size: 18px;
-  outline: none;
-  border: 1 px solid silver;
-}
-.login_form.font2{
-  margin-top: 30px;
+  border-radius: 20px;
 }  
-.login_form button{
-  margin: 45px 0 30px 0;
-  height: 45px;
-  width: 365px;
-  font-size: 20px;
-  color: white;
-  outline: none;
+.loginbox input[type="submit"]:hover{
   cursor: pointer;
-  font-weight: bold;
-  background: #1A237E;
-  border-radius: 3px;
-  border: 1px solid #3949AB;
-  transition: .5s;
+  background: #ffc107;
+  color: #000;
 }
-.login_form button:hover{
-  background: #151c6a
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}  
+.loginbox a:hover{
+  color: #ffc107;
 }
-  
 </style>
-<title>Only lab personnel</title>
-<!-- Include CSS File Here -->
-<link rel="stylesheet" href="css/style.css"/>
-<!-- Include JS File Here -->
-<script src="login.js"></script>
-</head>
+  
+<title>lab</title>
   
 <body>
-<div class="container">
-<div class="main">
-<h1 class="label">Lab Personnel Login</h1>
-  
-<form id="form_id" method="post" name="myform">
-  <label>User Name</label>
-<input type="text" name="username" id="username"/><br>
-<label>Password</label>
-<input type="password" name="password" id="password"/><br>
-<input type="button" value="Login" id="submit" onclick="validate()"/>
-</form>
-
-
-</div>
-</div>
+  <div class="loginbox">
+  <img src="nopic.jpg" class="avatar">
+    <h1>Login</h1>
+    <form>
+      <p>Username</p>
+      <input type="text" name="username" id="username" placeholder="Enter Username">
+      <p>Password</p>
+      <input type="password" name="password" id="password" placeholder="Enter Password">
+      <input type="Submit" value="Login" id="submit" onclick="validate()"/>
+    </form>
+  </div>
 
 <script>
 function validate(){
@@ -109,14 +113,7 @@ window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";
   }
 </script>
 
-  
-
-  
-  
-  
-  
-  
-  
-  
+    
 </body>
+</head>
 </html>

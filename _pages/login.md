@@ -49,7 +49,7 @@ h1{
   width: 100%;
   margin-bottom: 20px;
 }
-.loginbox input[type='text"], input[type="password"]
+.loginbox input[type="text"], input[type="password"]
 {
   border: none;
   border-bottom: 1px solid #fff;
@@ -59,7 +59,7 @@ h1{
   color: #fff;
   font-size: 16px;
 }
-.loginbox input[tuoe="submit"]{
+.loginbox input[type="submit"]{
   border: none;
   outline: none;
   height: 40px;

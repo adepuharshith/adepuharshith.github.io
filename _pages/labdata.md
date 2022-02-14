@@ -10,6 +10,6 @@ permalink: /labdata.html
 
 {% for article in site.data.labdata %}
 <p>{{ article.date }} <br>
-<pdf src="{{ site.url }}{{ site.baseurl }}/images/{{ test.pdf }}" class="img-responsive" width="100%" " />
+<pdf src="{{ site.url }}{{ site.baseurl }}/images/{{ test.pdf }}" class="pdf-responsive" width="100%" " />
 <em>{{ article.headline }}</em></p>
 {% endfor %}

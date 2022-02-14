@@ -6,46 +6,8 @@ permalink: /login/
 
 <html>
 <head>
-<title>Only lab personnel</title>
-<!-- Include CSS File Here -->
-<link rel="stylesheet" href="css/style.css"/>
-<!-- Include JS File Here -->
-<script src="login.js"></script>
-</head>
   
-<body>
-<div class="container">
-<div class="main">
-<h1 class="label">Lab Personnel Login</h1>
-  
-<form id="form_id" method="post" name="myform">
-  <label>User Name</label>
-<input type="text" name="username" id="username"/><br>
-<label>Password</label>
-<input type="password" name="password" id="password"/><br>
-<input type="button" value="Login" id="submit" onclick="validate()"/>
-</form>
-
-
-</div>
-</div>
-
-<script>
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-if ( username == "adminchoi" && password == "choi@1067"){
-
-window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";  
-  }
- else{
-  alert ("Login Unsuccessfull!");
-  }
-  }
-</script>
-
-  
-<style>
+  <style>
 *{
   padding: 0;
   margin: 0;
@@ -60,7 +22,7 @@ body{
 .container{
   position: relative;
   margin-top: 100px;
-  width: 100 px;
+  width: 450 px;
   height: auto;
   background: #dedede;
   border-radius:5;
@@ -109,6 +71,46 @@ body{
 }
   
 </style>
+<title>Only lab personnel</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="css/style.css"/>
+<!-- Include JS File Here -->
+<script src="login.js"></script>
+</head>
+  
+<body>
+<div class="container">
+<div class="main">
+<h1 class="label">Lab Personnel Login</h1>
+  
+<form id="form_id" method="post" name="myform">
+  <label>User Name</label>
+<input type="text" name="username" id="username"/><br>
+<label>Password</label>
+<input type="password" name="password" id="password"/><br>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+
+
+</div>
+</div>
+
+<script>
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "adminchoi" && password == "choi@1067"){
+
+window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";  
+  }
+ else{
+  alert ("Login Unsuccessfull!");
+  }
+  }
+</script>
+
+  
+
   
   
   

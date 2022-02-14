@@ -98,6 +98,7 @@ h1{
       <input type="submit" value="Login" id="submit" onclick="validate()"/>
     </form>
   </div>
+  </div>
 
 <script>
 function validate(){

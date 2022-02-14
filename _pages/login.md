@@ -19,7 +19,7 @@ permalink: /login/
 <h1 class="label">Lab Personnel Login</h1>
   
 <form id="form_id" method="post" name="myform">
-<div.class="font">User Name</div>
+<label><div.class="font">User Name</div></label>
 <input type="text" name="username" id="username"/>
 <div.class="font font2">Password</div>
 <input type="password" name="password" id="password"/>

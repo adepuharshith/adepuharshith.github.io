@@ -60,7 +60,7 @@ body{
 .container{
   position: relative;
   margin-top: 100px;
-  width: 450 px;
+  width: 100 px;
   height: auto;
   background: #dedede;
   border-radius:5;

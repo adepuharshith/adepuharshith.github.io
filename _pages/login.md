@@ -95,7 +95,7 @@ h1{
       <input type="text" name="username" id="username" placeholder="Enter Username">
       <p>Password</p>
       <input type="password" name="password" id="password" placeholder="Enter Password">
-      <input type="Submit" value="Login" id="submit" onclick="validate()"/>
+      <input type="submit" value="Login" id="submit" onclick="validate()"/>
     </form>
   </div>
 

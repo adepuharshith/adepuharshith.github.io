@@ -18,6 +18,7 @@ body{
   width: 320 px;
   height: 420 px;
   background: #000;
+  color: #fff;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -98,7 +99,7 @@ h1{
     </form>
   </div>
   </div>
-
+</head>
 <script>
 function validate(){
 var username = document.getElementById("username").value;
@@ -115,5 +116,5 @@ window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";
 
     
 </body>
-</head>
+
 </html>

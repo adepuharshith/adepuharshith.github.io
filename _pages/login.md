@@ -8,8 +8,8 @@ permalink: /login/
 <head>
 <style>
 .loginbox{
-  width: 320 px;
-  height: 420 px;
+  width: 360 px;
+  height: 400 px;
   background: #BFA26A;
   color: #000000;
   top: 50%;

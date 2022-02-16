@@ -32,7 +32,7 @@ body{
   border-radius: 50%;
   position: absolute;
   top: -50px;
-  left: calc(50%-50px);
+  left: 50px;
 }
 h1{
   margin: 0;

@@ -8,8 +8,8 @@ permalink: /login/
 <head>
 <style>
 .loginbox{
-  width: 360 px;
-  height: 300 px;
+  width: 320 px;
+  height: 420 px;
   background: #BFA26A;
   color: #000000;
   top: 50%;
@@ -17,7 +17,7 @@ permalink: /login/
   position: absolute;
   transform: translate(-50%,-50%);
   box-sizing: border-box;
-  padding: 70px 30px;
+  padding: 50px 30px;
 }
 .avatar{
   width: 100px;

@@ -11,11 +11,10 @@ permalink: /labdata.html
 {% for article in site.data.labdata %}
 <p>{{ article.date }} <br>
 <iframe name="iframe1" src="{{ site.url }}{{ site.baseurl }}/images/test.pdf" style="width: 100%;height: 100%;border: none;"></iframe>
- 
-  
- 
 
 <a target="iframe1">link</a>
   
+ 
+ <a href="{{ site.url }}{{ site.baseurl }}/images/test.pdf">example</a>
 <em>{{ article.headline }}</em></p>
 {% endfor %}

@@ -88,7 +88,7 @@ h1{
   
 <body>
   <div class="loginbox">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/nopic.jpg" class="avatar">
+  <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" class="avatar">
     <h1>Login</h1>
     <form id="form_id" method="post" name="myform">
       <p>Username</p>
@@ -109,7 +109,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "adminchoi" && password == "choi@1067"){
 alert ("Login successfully");
-window.location = "{{ site.url }}{{ site.baseurl }}/_site/labdata.html";  
+window.location = "{{ site.url }}{{ site.baseurl }}/success.html";  
   }
  else{
   alert ("unsuccessfull");

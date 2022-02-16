@@ -109,7 +109,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "adminchoi" && password == "choi@1067"){
 alert ("Login successfully");
-window.location = "{{ site.url }}{{ site.baseurl }}/success.html";  
+window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";  
   }
  else{
   alert ("unsuccessfull");

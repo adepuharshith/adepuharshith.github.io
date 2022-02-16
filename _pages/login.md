@@ -18,7 +18,7 @@ body{
   width: 320 px;
   height: 420 px;
   background: #000;
-  color: #fff;
+  color: #a6a63f;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -98,7 +98,7 @@ h1{
       <input type="button" value="Login" id="submit" onclick="validate()"/>
     </form>
   </div>
-  </div>
+
 
   
   
@@ -108,7 +108,6 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "adminchoi" && password == "choi@1067"){
-alert ("Login successfully");
 window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";  
   }
  else{

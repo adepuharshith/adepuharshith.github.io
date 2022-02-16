@@ -106,7 +106,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "adminchoi" && password == "choi@1067"){
 
-window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";  
+window.location = "{{ site.url }}{{ site.baseurl }}/_site/labdata.html";  
   }
  else{
   alert ("Login Unsuccessfull!");

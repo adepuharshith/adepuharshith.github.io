@@ -1,5 +1,5 @@
 ---
-title: 
+
 layout: page
 permalink: /login/
 ---
@@ -56,7 +56,7 @@ h1{
   border: none;
   outline: none;
   height: 40px;
-  background: #fb2525;
+  background: #FFFFFF;
   color: #fff;
   font-size: 18px;
   border-radius: 20px;

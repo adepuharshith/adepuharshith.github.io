@@ -25,7 +25,7 @@ permalink: /login/
   border-radius: 50%;
   position: absolute;
   top: -50px;
-  left: 50px;
+  left: 100px;
 }
 h1{
   margin: 0;

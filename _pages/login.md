@@ -57,7 +57,7 @@ h1{
   outline: none;
   height: 40px;
   background: #FFFFFF;
-  color: #fff;
+  color: #000000;
   font-size: 18px;
   border-radius: 20px;
 }  

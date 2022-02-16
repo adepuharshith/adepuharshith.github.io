@@ -9,7 +9,7 @@ permalink: /login/
 <style>
 .loginbox{
   width: 360 px;
-  height: 400 px;
+  height: 300 px;
   background: #BFA26A;
   color: #000000;
   top: 50%;

@@ -83,33 +83,36 @@ h1{
   color: #ffc107;
 }
 </style>
-  
+</head>  
 <title>lab</title>
   
 <body>
   <div class="loginbox">
   <img src="nopic.jpg" class="avatar">
     <h1>Login</h1>
-    <form>
+    <form id="form_id" method="post" name="myform">
       <p>Username</p>
       <input type="text" name="username" id="username" placeholder="Enter Username">
       <p>Password</p>
       <input type="password" name="password" id="password" placeholder="Enter Password">
-      <input type="submit" value="Login" id="submit" onclick="validate()"/>
+      <input type="button" value="Login" id="submit" onclick="validate()"/>
     </form>
   </div>
   </div>
-</head>
+
+  
+  
+  
 <script>
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "adminchoi" && password == "choi@1067"){
-
-window.location = "{{ site.url }}{{ site.baseurl }}/_site/labdata.html";  
+alert ("Login successfully");
+window.location = "{{ site.url }}{{ site.baseurl }}/_site/logdata.html";  
   }
  else{
-  alert ("Login Unsuccessfull!");
+  alert ("unsuccessfull");
   }
   }
 </script>

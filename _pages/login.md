@@ -1,5 +1,5 @@
 ---
-title: "Login"
+title: 
 layout: page
 permalink: /login/
 ---
@@ -15,13 +15,13 @@ permalink: /login/
   top: 50%;
   left: 50%;
   position: absolute;
-  trnasform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
   box-sizing: border-box;
   padding: 70px 30px;
 }
 .avatar{
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   position: absolute;
   top: -50px;

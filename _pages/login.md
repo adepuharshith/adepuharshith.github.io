@@ -25,7 +25,7 @@ permalink: /login/
   border-radius: 30%;
   position: absolute;
   top: -50px;
-  left: 100px;
+  left: calc(50%-50px);
 }
 h1{
   margin: 0;
@@ -76,7 +76,7 @@ h1{
   color: #ffc107;
 }
 </style>
-</head>  
+
 <title>lab</title>
   
 <body>
@@ -110,5 +110,5 @@ window.location = "{{ site.url }}{{ site.baseurl }}/labdata.html";
 
     
 </body>
-
+</head>  
 </html>

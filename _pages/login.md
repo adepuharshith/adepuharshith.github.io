@@ -11,7 +11,7 @@ permalink: /login/
   width: 320 px;
   height: 420 px;
   background: #BFA26A;
-  color: #fff;
+  color: #000000;
   top: 50%;
   left: 50%;
   position: absolute;

@@ -24,8 +24,8 @@ permalink: /login/
   height: 100px;
   border-radius: 30%;
   position: absolute;
-  top: -50px;
-  left: calc(50%-50px);
+  top: -70px;
+  left: 100px;
 }
 h1{
   margin: 0;

@@ -7,13 +7,6 @@ permalink: /login/
 <html>
 <head>
 <style>
-body{
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-position: centre;
-  font-family: sans-serif;
-}
 .loginbox{
   width: 320 px;
   height: 420 px;

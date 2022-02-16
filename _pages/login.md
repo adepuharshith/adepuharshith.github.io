@@ -20,9 +20,9 @@ permalink: /login/
   padding: 70px 30px;
 }
 .avatar{
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 30%;
   position: absolute;
   top: -50px;
   left: 100px;
@@ -82,7 +82,6 @@ h1{
 <body>
   <div class="loginbox">
   <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" class="avatar">
-    <h1>Login</h1>
     <form id="form_id" method="post" name="myform">
       <p>Username</p>
       <input type="text" name="username" id="username" placeholder="Enter Username">
